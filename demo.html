@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bimal Kunwar | Portfolio</title>
+    <style>
+        body.profile-body {
+            background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
+            font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .profile-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 24px;
+            box-shadow: 0 4px 32px rgba(99,102,241,0.10);
+            padding: 32px 24px 40px 24px;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            border-bottom: 2px solid #e0e7ff;
+            padding-bottom: 24px;
+            margin-bottom: 24px;
+        }
+        .profile-gif {
+            width: 180px;
+            border-radius: 18px;
+            box-shadow: 0 2px 16px rgba(99,102,241,0.08);
+        }
+        .profile-header h1 {
+            margin: 0;
+            font-size: 2.3rem;
+            color: #6366f1;
+            letter-spacing: 1px;
+        }
+        .profile-header h3 {
+            margin: 8px 0 0 0;
+            font-weight: 400;
+            color: #374151;
+        }
+        .highlight {
+            color: #f59e42;
+        }
+        .profile-views img {
+            margin-top: 8px;
+        }
+        .profile-main {
+            margin-top: 12px;
+        }
+        .profile-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 24px 0;
+        }
+        .profile-list li {
+            margin-bottom: 10px;
+            font-size: 1.08rem;
+            color: #374151;
+        }
+        .profile-link {
+            color: #6366f1;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        .profile-link:hover {
+            color: #f59e42;
+            text-decoration: underline;
+        }
+        .profile-social {
+            margin: 24px 0 18px 0;
+        }
+        .profile-social h3 {
+            margin-bottom: 10px;
+            color: #6366f1;
+        }
+        .profile-social a img {
+            width: 36px;
+            height: 36px;
+            margin-right: 12px;
+            transition: transform 0.2s;
+            border-radius: 50%;
+            background: #f3f4f6;
+            padding: 4px;
+        }
+        .profile-social a img:hover {
+            transform: scale(1.15) rotate(-8deg);
+            background: #f59e42;
+        }
+        .profile-skills {
+            margin-bottom: 28px;
+        }
+        .profile-skills h3 {
+            color: #6366f1;
+            margin-bottom: 10px;
+        }
+        .skills-icons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+        .skills-icons img {
+            width: 40px;
+            height: 40px;
+            background: #f3f4f6;
+            border-radius: 10px;
+            padding: 6px;
+            box-shadow: 0 2px 8px rgba(99,102,241,0.06);
+            transition: transform 0.2s, background 0.2s;
+        }
+        .skills-icons img:hover {
+            transform: scale(1.12) rotate(4deg);
+            background: #e0e7ff;
+        }
+        .profile-github {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            justify-content: center;
+            margin-top: 32px;
+        }
+        .profile-github img {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(99,102,241,0.07);
+            background: #f3f4f6;
+            padding: 8px;
+        }
+        @media (max-width: 700px) {
+            .profile-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 18px;
+            }
+            .profile-gif {
+                width: 100%;
+                max-width: 220px;
+                margin: 0 auto;
+                display: block;
+            }
+            .profile-container {
+                padding: 16px 4vw 24px 4vw;
+            }
+            .profile-github {
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+    </style>
+</head>
+<body class="profile-body">
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif" alt="coding" class="profile-gif">
+            <div>
+                <h1>Hi 👋, I'm <span class="highlight">Bimal Kunwar</span></h1>
+                <h3>A passionate Developer from Nepal</h3>
+                <p class="profile-views">
+                    <img src="https://komarev.com/ghpvc/?username=bimal-18&label=Profile%20views&color=0e75b6&style=flat" alt="bimal-18" />
+                </p>
+            </div>
+        </div>
+        <div class="profile-main">
+            <ul class="profile-list">
+                <li>🌱 I’m currently diving into <b>problem-solving and creative coding.</b></li>
+                <li>🌐 Visit my website: <a href="https://bimalkunwar.com.np" target="_blank" class="profile-link">bimalkunwar.com.np</a></li>
+                <li>💬 Ask me about <b>logic building, programming concepts, and tech experiments</b></li>
+                <li>📫 How to reach me: <b>bimalknwr3@gmail.com</b></li>
+                <li>⚡ Fun fact: <i>“My computer is my best friend—until it crashes.”</i></li>
+            </ul>
+            <div class="profile-social">
+                <h3>Connect with me:</h3>
+                <a href="https://x.com/BimalKnwr?t=kXmBh6xnMNeszQbzCyaiug&s=09" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="twitter" /></a>
+                <a href="https://www.facebook.com/profile.php?id=100080342062933&mibextid=ZbWKwL" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="facebook" /></a>
+                <a href="https://www.instagram.com/bimal_knwr?igsh=bXcydWYwM3JvM3Ft" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="instagram" /></a>
+                <a href="https://www.youtube.com/@bimalknwr7965" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="youtube" /></a>
+            </div>
+            <div class="profile-skills">
+                <h3>Languages and Tools:</h3>
+                <div class="skills-icons">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" title="C"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" title="C++"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" title="CSS3"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" title="HTML5"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" title="Java"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" title="JavaScript"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" title="PHP"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" title="Python"/>
+                    <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" title="Unity"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" title="TypeScript"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" title="React"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="mysql" title="MySQL"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" title="Git"/>
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" title="Linux"/>
+                </div>
+            </div>
+            <div class="profile-github">
+                <img src="https://github-readme-stats.vercel.app/api?username=bimal-18&show_icons=true&locale=en" alt="bimal-18 stats" />
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=bimal-18&" alt="bimal-18 streak" />
+            </div>
+        </div>
