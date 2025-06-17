@@ -8,11 +8,31 @@
     <!-- Corrected Google Fonts link for Material Symbols -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+     <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+    .bg-iframe {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      border: none;
+      z-index: 0;
+    }
+  </style>
 </head>
 
 <body>
     <!-- kehi samay ko lagi -->
-    <div class="background-watermark">Bimal Kunwar</div>
+     <!-- <iframe src="index.html" class="bg-iframe"></iframe>
+       -->
+      <iframe src="index.html" class="bg-iframe"></iframe>
+    <!-- <div class="background-watermark">Bimal Kunwar</div> -->
+
 
     <Button id="chatbot-toggler">
         <span class="material-symbols-rounded">mode_comment</span>
